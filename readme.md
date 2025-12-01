@@ -1,5 +1,18 @@
 # 📚 Project System Master Guide
 
+> [!important] Getting Started: Setting up the Obsidian Vault The entire project structure is contained within the zipped folder (`Project-Management-Information-System.zip`). To start using this system:
+> 
+> 1. **Unzip** the folder (`Project-Management-Information-System`).
+>     
+> 2. **Open Obsidian**.
+>     
+> 3. On the welcome screen, select **"Open folder as vault"**.
+>     
+> 4. Navigate to and select the unzipped `Project-Management-Information-System` folder.
+>     
+> 
+> This will set up the folder as an Obsidian vault, ready to use with all the necessary plugins and file structures.
+
 Welcome to your comprehensive project management system! This system is designed to help you organize, track, and log all your goals, from complex engineering projects and business tasks to creative endeavors.
 
 This system works by using three powerful tools:
