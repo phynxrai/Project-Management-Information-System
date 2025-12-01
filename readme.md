@@ -1,6 +1,10 @@
 # 📚 Project System Master Guide
 
-> [!important] Getting Started: Setting up the Obsidian Vault The entire project structure is contained within the zipped folder (`Project-Management-Information-System.zip`). To start using this system:
+> [!important] Getting Started: Initial Setup (MANDATORY)
+> 
+> The entire project structure is contained within the zipped folder (`Project-Management-Information-System.zip`). To start using this system:
+> 
+> **Step 1: Unzip and Open Vault**
 > 
 > 1. **Unzip** the folder (`Project-Management-Information-System`).
 >     
@@ -11,7 +15,38 @@
 > 4. Navigate to and select the unzipped `Project-Management-Information-System` folder.
 >     
 > 
-> This will set up the folder as an Obsidian vault, ready to use with all the necessary plugins and file structures.
+> **Step 2: Install Essential Plugins** For all dynamic features (tables, buttons, automation) to work, you must install and enable the following community plugins (via **Settings** > **Community Plugins**):
+> 
+> - **Dataview** (For dynamic tables and status displays)
+>     
+> - **Templater** (For all automation and quick actions)
+>     
+> 
+> **Step 3: Configure Dataview** You must enable JavaScript support for the interactive buttons and dynamic tables to load:
+> 
+> 1. Go to **Settings** > **Dataview**.
+>     
+> 2. Scroll down and ensure **"Enable JavaScript queries"** is turned **ON**.
+>     
+> 
+> **Step 4: Configure Templater** You must point Templater to the user script location so it can run the automation logic:
+> 
+> 1. Go to **Settings** > **Templater**.
+>     
+> 2. Set **Template folder location** to: `Templates`
+>     
+> 3. Set **User script folder** to: `Templates/js`
+>     
+
+Welcome to your comprehensive project management system! This system is designed to help you organize, track, and log all your goals, from complex engineering projects and business tasks to creative endeavors.
+
+This system works by using three powerful tools:
+
+1. **YAML Properties:** Data tags at the top of each file (like `status: in-progress`).
+    
+2. **Templater:** Scripts that automate file creation and data input.
+    
+3. **DataviewJS:** Code blocks that automatically read the YAML data from your files and display it in organized tables and interactive menus.
 
 Welcome to your comprehensive project management system! This system is designed to help you organize, track, and log all your goals, from complex engineering projects and business tasks to creative endeavors.
 
