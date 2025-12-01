@@ -1,4 +1,4 @@
-# 📚 Project System Master Guide
+# 📚 Project Management Information System Guide
 
 > [!important] Getting Started: Initial Setup (MANDATORY)
 > 
