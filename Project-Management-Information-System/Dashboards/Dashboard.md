@@ -299,12 +299,25 @@ dv.table(
 ```dataviewjs
 // 1. Get the current year for path filtering
 const currentYear = moment().format("YYYY");
-const folderPath = `"Projects/Completed/${currentYear}"`;
+const folderPath = `Projects/Completed/${currentYear}`;
 
 // 2. Query for projects in the current year's completed folder
-const completedProjects = dv.pages(`${folderPath} & #project`)
+//const completedProjects = dv.pages(`${folderPath} & #project`)
     // Sort by the 'finalized' date, which is logged by the Admonition buttons
-    .sort(p => p.finalized, 'desc'); 
+    //.sort(p => p.finalized, 'desc'); 
+
+const completedProjects = dv.pages('#project')
+    .where(p => 
+        // Filter by Path: Descendants of General or Project Active folders
+        p.file.path.startsWith(folderPath)
+    )
+    .filter(p => {
+        // Filter 2: Must be 'complete'
+        return p.status && p.status == 'complete';
+    })
+    // 2. Sort: Oldest tasks first (ascending 'started' date)
+    .sort(p => p.finalized, 'desc')
+
 
 dv.header(3, `Completed in ${currentYear}`);
 
