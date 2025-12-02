@@ -211,7 +211,7 @@ const backlogProjects = dv.pages('#project')
     )
     .filter(p => {
         // Filter 2: Must NOT be 'complete' or 'on-hold'
-        return p.status && p.status !== 'complete' && p.status !== 'on-hold';
+        return p.status && p.status !== 'complete';
     })
     // 2. Sort: Oldest tasks first (ascending 'started' date)
     .sort(p => p.title, 'asc')
