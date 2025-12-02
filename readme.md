@@ -2,18 +2,19 @@
 
 > [!important] Getting Started: Initial Setup (MANDATORY)
 > 
-> The entire project structure is contained within the zipped folder (`Project-Management-Information-System.zip`). To start using this system:
+> The entire project structure is contained within the folder (`Project-Management-Information-System.zip`). To start using this system:
 > 
 > **Step 1: Unzip and Open Vault**
 > 
-> 1. **Unzip** the folder (`Project-Management-Information-System`).
+> 1. **Download** the folder (`Project-Management-Information-System`).
 >     
 > 2. **Open Obsidian**.
 >     
 > 3. On the welcome screen, select **"Open folder as vault"**.
 >     
-> 4. Navigate to and select the unzipped `Project-Management-Information-System` folder.
+> 4. Navigate to and select the downloaded `Project-Management-Information-System` folder.
 >     
+> 5. Delete all placeholder.md files
 > 
 > **Step 2: Install Essential Plugins** For all dynamic features (tables, buttons, automation) to work, you must install and enable the following community plugins (via **Settings** > **Community Plugins**):
 > 
